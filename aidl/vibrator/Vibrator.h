@@ -17,9 +17,9 @@ namespace vibrator {
 const std::string kVibratorPropPrefix = "ro.vendor.vibrator.hal.";
 const std::string kVibratorPropDuration = ".duration";
 
-const std::string kVibratorState = "/sys/class/leds/vibrator/state";
-const std::string kVibratorDuration = "/sys/class/leds/vibrator/duration";
-const std::string kVibratorActivate = "/sys/class/leds/vibrator/activate";
+const std::string kVibratorState = "/sys/class/leds/vibrator_single/state";
+const std::string kVibratorDuration = "/sys/class/leds/vibrator_single/duration";
+const std::string kVibratorActivate = "/sys/class/leds/vibrator_single/activate";
 
 #ifdef VIBRATOR_SUPPORTS_EFFECTS
 const std::string kVibratorStrength = "/sys/kernel/thunderquake_engine/level";
